@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    width: 600px;
+    list-style: none;
+    font-family: arial;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -5%);
+    
+}
+ul li {
+    width: 100px;
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+ul li:hover {
+    cursor: pointer
+}
+#line {
+    width: 100px;
+    height: 2px;
+    margin-left: 233px;
+    background: black;
+    transition: all .3s ease-in-out;
+}
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  back style  =-=-=-=-=-=-=-=-=-=- */
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+.back_page_648 {width: 65px;height: 30px;background: rgba(0, 152, 255, 0.87);-webkit-box-shadow: 0px 1px 3px rgba(0, 152, 255, 0.63);-moz-box-shadow: 0px 1px 3px rgba(0, 152, 255, 0.63);box-shadow: 0px 1px 3px rgba(0, 152, 255, 0.63);display: block;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;color: white;text-align: center;line-height: 33px;font-size: 1.5em;position: absolute;top: 3%;left: 3%;
+}
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */

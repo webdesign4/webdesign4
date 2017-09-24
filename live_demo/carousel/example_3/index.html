@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Live Demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="min.style.css">
+    <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body>
+    <a  href="../../../page/carousel/index.html" class="back_page_648"><i class="ion-arrow-left-c"></i></a>
+<div class="container">
+    <div class="slider">
+        <div class="word_box">
+        Hallo
+            <div class="word">
+                <span>Frau Lehrerin</span>
+                <span>Liebe mitschüler/inen</span>
+            </div>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="word_box">
+        Ich bin
+            <div class="word">
+                <span>Belal Mrb</span>
+                <span>17 Jahre alt</span>
+                <span>web designer</span>
+                <span>Kämpfer</span>
+                <span>:)</span>
+            </div>
+        </div>
+    </div>
+    <div class="slider">
+        <h3>Ich stelle euch heute mein referat über Wien vor</h3>
+    </div>
+    <div class="slider last-slider-carousel">
+        <div class="link_box hotel">
+            <h3>Über</h3>
+            <p>Hotels in wien</p>
+            <a href="#"><i class="ion-arrow-right-c"></i></a>
+        </div>
+        <div class="link_box donau">
+            <h3>Über</h3>
+            <p>Donau</p>
+            <a href="#"><i class="ion-arrow-right-c"></i></a>
+        </div>
+        <div class="link_box schonbrunn">
+            <h3>Über</h3>
+            <p>Schönbrunn</p>
+            <a href="#"><i class="ion-arrow-right-c"></i></a>
+        </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)"><i class="ion-arrow-left-c"></i></a>
+    <a class="next" onclick="plusSlides(1)"><i class="ion-arrow-right-c"></i></a>
+</div>
+<div style="text-align:center; position: absolute; top: 20%;" >
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slider");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}    
+</script>
+</body>
+</html>

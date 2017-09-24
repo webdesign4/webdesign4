@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Live Demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="min.style.css">
+    <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.navbar_bar').click(function(){
+                $('.menu').addClass('active')
+            })
+            $('.navbar_bar-close').click(function(){
+                $('.menu').removeClass('active')
+            })
+        })
+    </script>
+</head>
+<body>
+    <a  href="../../../page/menu/index.html" class="back_page_648"><i class="ion-arrow-left-c"></i></a>
+    <div class="container">
+        <div class="navbar_bar"><i class="ion-navicon-round"></i></div>
+        <div class="navbar_language">
+            <i class="ion-ios-world-outline"></i>
+            <a href="#" class="en"></a>
+            <a href="#" class="af"></a>
+            <a href="#" class="at"></a>
+        </div>
+        <nav class="menu">
+            <div class="navbar_bar-close"><i class="ion-close-round"></i></div>
+            <ul class="menu_f">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">Wörterbuch</a></li>
+                <li><a href="#">Buch</a></li>
+                <li><a href="#">Herunterladen</a></li>
+                <li class="drop">
+                    <a href="#">Sprache<i class="ion-arrow-down-b"></i></a>
+                    <div class="down">
+                        <a href="#">English</a>
+                        <a href="#">Pashto</a>
+                        <a href="#">Dari</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="mobil-navicon"></div>
+            <ul class="icon-mobil">
+               <li title="FACEBOOK"><a href="#" class="fa"><i class="ion-social-facebook"></i></a></li> 
+               <li title="TWITTER"><a href="#" class="tw"><i class="ion-social-twitter"></i></a></li> 
+               <li title="YOUTUBE"><a href="#" class="yo"><i class="ion-social-youtube"></i></a></li> 
+               <li title="INSTAGRAM"><a href="#" class="in"><i class="ion-social-instagram"></i></a></li> 
+               <li title="DRIBBBLE"><a href="#" class="dr"><i class="ion-social-dribbble-outline"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+    <div style="width: 100%; height: 500px;background: green;"></div>
+</body>
+</html>

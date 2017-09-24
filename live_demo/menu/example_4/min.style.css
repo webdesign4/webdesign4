@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: deepskyblue;
+}
+.menu-toggle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+}
+.menu-toggle span {
+    position: absolute;
+    display: block;
+    background: #d42d1b;
+    width: 50%;
+    height: 6px;
+    transition: .5s;
+}
+.menu-toggle span:nth-child(even) {
+    left: 50%;
+}
+.menu-toggle span:nth-child(1),
+.menu-toggle span:nth-child(2) {
+    top: 0;
+}
+.menu-toggle span:nth-child(3),
+.menu-toggle span:nth-child(4) {
+    top: 15px;
+}
+.menu-toggle span:nth-child(5),
+.menu-toggle span:nth-child(6) {
+    top: 30px;
+}
+.menu-toggle.active span:nth-child(3){
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.menu-toggle.active span:nth-child(4){
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.menu-toggle span:nth-child(1) {
+    transform-origin: top left;
+}
+.menu-toggle span:nth-child(2) {
+    transform-origin: top right;
+}
+.menu-toggle.active span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 1px;
+    left: 7px;
+}
+.menu-toggle.active span:nth-child(2) {
+    transform: rotate(-45deg);
+    top: 1px;
+    left: calc(50% - 7px);
+}
+
+
+.menu-toggle span:nth-child(5) {
+    transform-origin: bottom left;
+}
+.menu-toggle span:nth-child(6) {
+    transform-origin: bottom right;
+}
+.menu-toggle.active span:nth-child(5) {
+    transform: rotate(-45deg);
+    bottom: 1px;
+    left: 7px;
+}
+.menu-toggle.active span:nth-child(6) {
+    transform: rotate(45deg);
+    bottom: 1px;
+    left: calc(50% - 7px)
+}
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  back style  =-=-=-=-=-=-=-=-=-=- */
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+.back_page_648 {width: 65px;height: 30px;background: rgba(0, 152, 255, 0.87);-webkit-box-shadow: 0px 1px 3px rgba(0, 152, 255, 0.63);-moz-box-shadow: 0px 1px 3px rgba(0, 152, 255, 0.63);box-shadow: 0px 1px 3px rgba(0, 152, 255, 0.63);display: block;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;color: white;text-align: center;line-height: 33px;font-size: 1.5em;position: absolute;top: 3%;left: 3%;
+}
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */

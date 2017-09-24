@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Live Demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--        icons links -->
+    <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="min.style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("ul li:nth-child(1)").hover(function(){
+                $("#line").css("margin-left","3px");
+            });
+            $("ul li:nth-child(2)").hover(function(){
+                $("#line").css("margin-left","113px");
+            });
+            $("ul li:nth-child(3)").hover(function(){
+                $("#line").css("margin-left","223px");
+            });
+            $("ul li:nth-child(4)").hover(function(){
+                $("#line").css("margin-left","333px");
+            });
+            $("ul li:nth-child(5)").hover(function(){
+                $("#line").css("margin-left","443px");
+            });
+        });
+    </script>
+</head>
+<body>
+    <a  href="../../../page/menu/index.html" class="back_page_648"><i class="ion-arrow-left-c"></i></a>
+    <ul>
+        <li>ABOUT</li>
+        <li>SERVICES</li>
+        <li>LOGO</li>
+        <li>WORK</li>
+        <li>CONTACT</li>
+        <div id="line"></div>
+    </ul>
+</body>
+</html>

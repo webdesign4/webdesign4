@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Live Demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="min.sytle.css">
+<!--        google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+<!--        icons links -->
+    <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<!--    -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=    -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.navbar_mb').click(function(){
+                $('.menu_mb').addClass('active')
+            })
+            $('.navbar_mb_close').click(function(){
+                $('.menu_mb').removeClass('active');
+            })
+//            $('.navbar_mb').click(function(){
+//                $('.navbar_mb_close').addClass('active')
+//            })
+//            $('.navbar_mb_close').click(function(){
+//                $('.navbar_mb_close').removeClass('active');
+//            })
+        })
+    </script>
+</head>
+<body>
+    <a  href="../../../page/menu/index.html" class="back_page_648"><i class="ion-arrow-left-c"></i></a>
+    <div class="menu">
+        <ul>
+            <li><a href="#">New example</a></li>
+            <li><a href="#">Uoplad your idea</a></li>
+<!--                logo -->
+            <div class="logo">
+                <div class="peace">PEACE</div>
+                <div class="is"></div>
+                <div class="is-s"><p>s</p></div>
+                <div class="dream">MY DREAM</div>
+            </div>
+<!--                end logo -->
+            <li class="left"><a href="#">Store <i class="ion-ios-cart-outline"></i></a></li>
+        </ul>
+        <div class="btn-border"><a href="#">SING UP</a></div>
+        <div class="btn-background"><a href="#">LOG IN</a></div>
+        <div class="navbar_mb"><i class="ion-navicon"></i></div>
+<!--            Mobile menu -->
+        <div class="menu_mb">
+            <div class="navbar_mb_close"><i class="ion-close"></i></div>
+            <div class="logo_mb">
+                <div class="cover_logo_mb">
+                <div class="cover_image_logo_mb"></div></div>
+            </div>
+            <a href="#">New example</a>
+            <a href="#">Uoplad your idea</a>
+            <a href="#">store</a>
+            <a href="#">SING UP</a>
+            <a href="#">LOG IN</a>
+            <a href="#">INFO</a>
+        </div>
+    </div>
+</body>
+</html>
