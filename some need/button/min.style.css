@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+/* first btn on menu*/
+
+.btn-border {
+    width: 125px;
+    height: 45px;
+    background: rgba(0, 152, 255, 0.16);
+    text-align: center;
+    line-height: 45px;
+    border: 2px solid #0098FF;
+    border-radius: 7px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+.btn-border > a {
+    color: #0098FF;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .3s ease;
+}
+.btn-border:hover a {
+    color: white;
+}
+.btn-border:hover {
+    background: #0098FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* second btn on menu*/
+
+
+.btn-background {
+    width: 125px;
+    height: 45px;
+    background: #0098FF;
+    text-align: center;
+    line-height: 45px;
+    border: 2px solid #0098FF;
+    border-radius: 7px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+.btn-background > a {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .3s ease;
+}
+.btn-background:hover a {
+    color: #0098FF;
+}
+.btn-background:hover {
+    background: rgba(0, 152, 255, 0.16);
+}
